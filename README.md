@@ -10,7 +10,8 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+
+
 <p align="center">
   <a href="https://github.com/abellini/piggy-bank">
     <img src="piggybank.png" alt="Logo" width="80" height="80">
@@ -19,9 +20,9 @@
   <h3 align="center">Piggy Bank</h3>
 
   <p align="center">
-    
+  Piggy Bank is a savings service powered by the Celo protocol. Saving can be hard! Sometimes we all need a helping hand to reach our goals. Piggy Bank allows anyone, anywhere to set a savings goal and only be allowed to access the money once the goal has been reached.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/abellini/piggy-bank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.piggy-bank.thepassivetrust.com">Web Page</a>
@@ -31,6 +32,7 @@
     <a href="https://github.com/abellinii/piggy-bank/issues">Request Feature</a>
   </p>
 </p>
+
 
 
 
@@ -54,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Pigy Bank][piggybankscreenshot.png]](https://www.thepassivetrust.com)
+[![piggybankscreenshot.png][product screenshot]](https://piggy-bank.thepassivetrust.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -90,15 +92,30 @@ git clone https://github.com/abellini/piggybank.git
 ```
 2. Install NPM packages
 ```sh
-npm install 
+npm install
 ```
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES --> 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Contracts
+
+```
+    -------     =======================     ============================   
+   | Proxy |   ║ UpgradeabilityStorage ║ ← ║ OwnedUpgradeabilityStorage ║  
+    -------     =======================     ============================   
+         ↑               ↑                  ↑          ↑               ↑             
+       ---------------------                |      ----------       ----------        
+      | UpgradeabilityProxy |               |     | PiggyBank_V0 |  ←  | PiggyBank_V1 |       
+       ---------------------                |      ----------       ----------   
+                        ↑                   |
+                     -------------------------- 
+                    | OwnedUpgradeabilityProxy |
+                     -------------------------- 
+```
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 

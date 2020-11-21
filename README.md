@@ -14,10 +14,10 @@
 
 <p align="center">
   <a href="https://github.com/abellini/piggy-bank">
-    <img src="piggybank.png" alt="Logo" width="80" height="80">
+    <img src="piggybank.png" alt="Logo" width="300" height="300">
   </a>
 
-  <h3 align="center">Piggy Bank</h3>
+  <h1 align="center">Piggy Bank</h1>
 
   <p align="center">
   Piggy Bank is a savings service powered by the Celo protocol. Saving can be hard! Sometimes we all need a helping hand to reach our goals. Piggy Bank allows anyone, anywhere to set a savings goal and only be allowed to access the money once the goal has been reached.

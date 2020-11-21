@@ -90,7 +90,7 @@ git clone https://github.com/abellini/piggybank.git
 ```
 2. Install NPM packages
 ```sh
-npm install
+npm install 
 ```
 
 
